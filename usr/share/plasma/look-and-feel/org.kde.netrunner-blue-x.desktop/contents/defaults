@@ -14,7 +14,7 @@ name=blue-x
 cursorTheme=white-classicia++
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.kde.netrunner.desktop
+LayoutName=org.kde.netrunner-blue-x.desktop
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.kde.netrunner.desktop
+LayoutName=org.kde.netrunner-blue-x.desktop
