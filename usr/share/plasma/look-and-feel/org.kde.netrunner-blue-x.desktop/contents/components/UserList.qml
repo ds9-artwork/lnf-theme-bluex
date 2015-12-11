@@ -47,15 +47,15 @@ ListView {
                     iconSource = model.icon
                 }
             } else {
-                iconSource = "user-identity"
+                iconSource: model.icon ? model.icon : "user-identity"
             }
         }
-        width: view.userItemWidth
-        faceSize: view.userFaceSize
+        width: ListView.view.userItemWidth
+        faceSize: ListView.view.userFaceSize
 
         onClicked: {
-            view.currentIndex = index;
-            view.userSelected();
+            ListView.view.currentIndex = index;
+            ListView.view.userSelected();
         }
     }
 

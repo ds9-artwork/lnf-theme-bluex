@@ -22,6 +22,7 @@ import QtQuick 2.2
 Image {
     id: root
     source: "../components/artwork/background.png"
+    fillMode: Image.PreserveAspectCrop
 
     property int stage
 
@@ -36,6 +37,12 @@ Image {
         height: (root.height / 3) - bottomRect.height - 1
         y: root.height
         color: "#4C000000"
+        Image {
+            source: "images/kde.svgz"
+            anchors.centerIn: parent
+            sourceSize.height: 128
+            sourceSize.width: 128
+        }
     }
 
     Rectangle {
