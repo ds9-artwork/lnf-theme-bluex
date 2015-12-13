@@ -5,7 +5,7 @@ widgetStyle=breeze
 ColorScheme=Carbon
 
 [kdeglobals][Icons]
-Theme=breeze-dark
+Theme=breeze
 
 [plasmarc][Theme]
 name=blue-x
