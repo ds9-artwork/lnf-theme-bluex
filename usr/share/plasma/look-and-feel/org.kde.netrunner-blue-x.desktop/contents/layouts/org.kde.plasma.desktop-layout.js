@@ -62,7 +62,7 @@ for (var i = 0; i < screenCount; ++i) {
         desktopsArray[j].writeConfig("sortMode","-1");
 //         [Containments][18][Wallpaper][org.kde.image][General]
         desktopsArray[j].currentConfigGroup = new Array("Wallpaper", "org.kde.image", "General");
-        desktopsArray[j].writeConfig("Image", "file:///usr/share/wallpapers/netrunner/Netrunner Rolling.png");
+        desktopsArray[j].writeConfig("Image", "file:///usr/share/wallpapers/netrunner/Netrunner Wheel.png");
         desktopsArray[j].writeConfig("FillMode","2");
     }
 }
